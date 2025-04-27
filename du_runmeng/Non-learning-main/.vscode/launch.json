@@ -1,0 +1,85 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+
+
+        {
+            "name": "Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "CSP_verify",
+            "type": "python",
+            "request": "launch",
+            "program": "Verify_Baseline/CSP_base.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "RE_verify",
+            "type": "python",
+            "request": "launch",
+            "program": "Verify_Baseline/RE_base.py",
+            "console": "integratedTerminal",
+            "args": ["localhost","9999"],
+            "justMyCode": true
+        },
+        {
+            "name": "CSP",
+            "type": "python",
+            "request": "launch",
+            "program": "BaseLine/CSP_base.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "ES",
+            "type": "python",
+            "request": "launch",
+            "program": "BaseLine/ES_base.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "CSP_float",
+            "type": "python",
+            "request": "launch",
+            "program": "MatrixFloat/CSP_float.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "ES_float",
+            "type": "python",
+            "request": "launch",
+            "program": "MatrixFloat/ES_float.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },{
+            "name": "CSP_npmml",
+            "type": "python",
+            "request": "launch",
+            "program": "NPMML/CSP_npmml.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "ES_npmml",
+            "type": "python",
+            "request": "launch",
+            "program": "NPMML/ES_npmml.py",
+            "console": "integratedTerminal",
+            "args": ["localhost","9999"],
+            "justMyCode": true
+        }
+    ]
+}
